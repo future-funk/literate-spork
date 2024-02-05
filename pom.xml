@@ -4,21 +4,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.futurefunk</groupId>
-    <artifactId>boom-bap</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>your-project-name</artifactId>
     <version>1.0.0</version>
 
     <dependencies>
         <!-- Thymeleaf for Spring 6 -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+            <groupId>org.thymeleaf</groupId>
+            <artifactId>thymeleaf-spring6</artifactId>
+            <version>6.0.0</version> <!-- Replace with the desired version -->
         </dependency>
     </dependencies>
 
     <properties>
         <java.version>1.8</java.version>
-        <spring.version>6.0.0</spring.version>
     </properties>
 
     <build>
